@@ -1,0 +1,45 @@
+<template>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    viewBox="0 0 24 24"
+  >
+    <path d="M0 0h24v24H0z" fill="none" />
+    <g
+      fill="none"
+      stroke="currentColor"
+      stroke-dasharray="16"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+    >
+      <path d="M5 5h14">
+        <animate
+          fill="freeze"
+          attributeName="stroke-dashoffset"
+          dur="0.3s"
+          values="16;0"
+        />
+      </path>
+      <path stroke-dashoffset="16" d="M5 12h14">
+        <animate
+          fill="freeze"
+          attributeName="stroke-dashoffset"
+          begin="0.3s"
+          dur="0.3s"
+          to="0"
+        />
+      </path>
+      <path stroke-dashoffset="16" d="M5 19h14">
+        <animate
+          fill="freeze"
+          attributeName="stroke-dashoffset"
+          begin="0.6s"
+          dur="0.3s"
+          to="0"
+        />
+      </path>
+    </g>
+  </svg>
+</template>

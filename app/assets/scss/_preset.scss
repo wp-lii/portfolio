@@ -1,3 +1,4 @@
+@use "mixin" as *;
 :root {
   --header-height: 75px;
   --line-height: 1.5;
@@ -44,14 +45,15 @@ input::-webkit-inner-spin-button {
 }
 
 /* Firefox */
-input[type='number'] {
+input[type="number"] {
   -moz-appearance: textfield;
   appearance: textfield;
 }
 
 .container {
+  border-inline: 1px solid var(--background-gary);
   margin: auto;
-  padding: 1rem 1.5rem;
+  padding: 3rem 1rem;
   width: clamp(360px, 100%, 1280px);
 }
 
@@ -64,4 +66,16 @@ input[type='number'] {
   border-radius: 20px;
   border: 4px solid #fff;
   background-color: var(--divider-color);
+}
+.icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin: auto;
+  color: var(--text-color-2);
+  @include media(768) {
+    width: 18px;
+    height: 18px;
+    margin: 0;
+  }
 }

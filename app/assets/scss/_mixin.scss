@@ -4,7 +4,7 @@
   }
 }
 
-@mixin gradient-text($deg: 90, $start-color: '#000000', $end-color: '#ffffff') {
+@mixin gradient-text($deg: 90, $start-color: "#000000", $end-color: "#ffffff") {
   background: linear-gradient(#{$deg}deg, $start-color, $end-color);
   background-clip: text;
   -webkit-background-clip: text;
@@ -31,4 +31,11 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: $line;
   overflow: hidden;
+}
+@mixin flex-center($direction: row, $gap: 0) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: center;
+  align-items: center;
+  gap: $gap;
 }

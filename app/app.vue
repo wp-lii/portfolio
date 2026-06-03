@@ -8,7 +8,7 @@
 <script lang="ts" setup>
 useHead({
   titleTemplate: (titleChunk) =>
-    titleChunk ? `${titleChunk} | LilyPortfolio` : "LilyPortfolio",
+    titleChunk ? `${titleChunk} | Lily` : "LilyPortfolio",
 });
 </script>
 

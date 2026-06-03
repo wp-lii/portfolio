@@ -1,6 +1,6 @@
-@import 'reset';
-@import 'mixin';
-@import 'font';
-@import 'color';
-@import 'preset';
-@import 'markdown';
+@use "reset" as *;
+@use "mixin" as *;
+@use "font" as *;
+@use "color" as *;
+@use "preset" as *;
+@use "markdown" as *;
