@@ -3,3 +3,4 @@ export { default as InstagramIcon } from "./instagramIcon.vue";
 export { default as LinkedinIcon } from "./linkedinIcon.vue";
 export { default as TopIcon } from "./topIcon.vue";
 export { default as MenuIcon } from "./menuIcon.vue";
+export { default as GotoIcon } from "./gotoIcon.vue";

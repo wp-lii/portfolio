@@ -1,7 +1,7 @@
 <template>
-  <layoutsNavBar />
-  <div>test</div>
-  <layoutsFooter />
+  <main class="main">
+    <HomePageHeroSection />
+  </main>
 </template>
 
 <script lang="ts" setup>

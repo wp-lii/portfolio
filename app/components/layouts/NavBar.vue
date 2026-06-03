@@ -1,5 +1,5 @@
 <template>
-  <section class="hero">
+  <section class="navbar">
     <div class="container">
       <div class="content">
         <div class="menu-text">about</div>
@@ -12,9 +12,9 @@
     </div>
 
     <div class="info-container">
-      <div class="info-top">
+      <!--       <div class="info-top">
         <TopIcon class="icon" />
-      </div>
+      </div> -->
       <div class="info-media">
         <GithubIcon class="icon" />
         <InstagramIcon class="icon" />
@@ -37,7 +37,7 @@ import {
 .icon {
   cursor: pointer;
 }
-.hero {
+.navbar {
   border: 1px solid var(--background-gary);
 }
 .container {
@@ -71,7 +71,7 @@ import {
   top: 14%;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   padding: 0 10rem;
   @include media(768) {
     top: 7%;
@@ -88,11 +88,11 @@ import {
     }
   }
 
-  .info-top {
+  /*   .info-top {
     height: 30px;
     @include media(768) {
       display: none;
     }
-  }
+  } */
 }
 </style>
