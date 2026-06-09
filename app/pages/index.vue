@@ -1,5 +1,4 @@
 <template>
-  <TopIcon class="icon" />
   <main class="main">
     <HomePageHeroSection />
     <cardProjectCard />
@@ -8,7 +7,6 @@
 </template>
 
 <script lang="ts" setup>
-import { TopIcon } from "~/assets/icons";
 useSeoMeta({
   title: "My Portfolio",
   ogTitle: "My Portfolio",

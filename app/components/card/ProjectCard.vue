@@ -72,7 +72,7 @@ onBeforeUnmount(() => {
   width: 400px;
   height: 300px;
   border-radius: 24px;
-  border: 1px solid rgb(255 255 255 / 0.15);
+  border: 1px solid rgb(255, 255, 255);
   backdrop-filter: blur(30px);
 
   transform-style: preserve-3d;
@@ -83,13 +83,12 @@ onBeforeUnmount(() => {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  background: linear-gradient(90deg, #ffce95, #ff7eae);
+  background: linear-gradient(90deg, #707070, #fff5f9);
 }
 
 .title {
   font-size: 48px;
   font-weight: 700;
-  background-color: antiquewhite;
   transform: translateZ(20px);
 }
 

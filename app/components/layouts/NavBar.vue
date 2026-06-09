@@ -12,9 +12,6 @@
     </div>
 
     <div class="info-container">
-      <!--       <div class="info-top">
-        <TopIcon class="icon" />
-      </div> -->
       <div class="info-media">
         <GithubIcon class="icon" />
         <InstagramIcon class="icon" />
@@ -28,7 +25,6 @@ import {
   GithubIcon,
   InstagramIcon,
   LinkedinIcon,
-  TopIcon,
   MenuIcon,
 } from "~/assets/icons";
 </script>
@@ -87,12 +83,5 @@ import {
       justify-content: flex-end;
     }
   }
-
-  /*   .info-top {
-    height: 30px;
-    @include media(768) {
-      display: none;
-    }
-  } */
 }
 </style>
