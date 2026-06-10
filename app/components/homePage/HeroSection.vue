@@ -10,10 +10,8 @@
 
     <div class="container">
       <h3 class="introduce">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
-        blanditiis. Mollitia quia placeat sit eaque blanditiis dolorem
-        repellendus nam, architecto ipsum praesentium, accusantium incidunt
-        autem accusamus magni, sunt cumque corporis!
+        （Skills） Vue 3 Nuxt 3 TypeScript JavaScript (ES6+) HTML5 SCSS / CSS3
+        Responsive Web Design (RWD)
       </h3>
       <buttonMoreButton text="text me" class="more-button" />
     </div>
