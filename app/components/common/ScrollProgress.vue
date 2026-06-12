@@ -1,6 +1,5 @@
 <template>
   <div ref="progressRef" class="scroll-progress">
-    <div class="progress-line" />
     <div ref="iconRef" class="icon-item" @click="goTop">
       <TopIcon class="icon" />
     </div>
@@ -34,10 +33,13 @@ onMounted(() => {
       ease: "power1.out",
       scrollTrigger: {
         start: 580,
-        toggleActions: "play none none reverse",
+        end: 2800,
+        toggleActions: "play reverse play reverse",
       },
     },
   );
+
+  //顯示長度
   gsap.to(icon, {
     y: maxY,
     ease: "none",
@@ -64,15 +66,9 @@ function goTop() {
   height: 50vh;
   width: 32px;
   pointer-events: none;
-}
-
-.progress-line {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  width: 2px;
-  transform: translateX(-50%);
+  @include media(768) {
+    left: 2%;
+  }
 }
 
 .icon-item {
@@ -82,6 +78,7 @@ function goTop() {
   transform: translateX(-50%);
   pointer-events: auto;
   cursor: pointer;
+  z-index: 10;
 }
 .icon {
   width: 36px;

@@ -11,10 +11,10 @@
       </ul>
     </div>
   </div>
-  <div class="dat"></div>
 </template>
 <script setup lang="ts">
 import type { ExperienceItem } from "~/types";
+
 const item = ref<ExperienceItem[]>([
   {
     id: "5",
@@ -26,7 +26,6 @@ const item = ref<ExperienceItem[]>([
       "使用 Vue 3 + TypeScript + Vite 建置 SPA 系統。",
       "導入Pinia管理全域狀態。與後端協作串接 RESTful API。",
       "建立可重複使用的元件架構，提高維護效率。",
-      "負責公務車借用流程相關頁面開發。",
       "規劃表單驗證與資料處理邏輯。",
       "優化手機版介面與 RWD 體驗。",
       "維護 Git Flow 與版本管理流程。",
@@ -125,16 +124,5 @@ const item = ref<ExperienceItem[]>([
 }
 .job {
   display: flex;
-}
-.dat {
-  position: relative;
-  width: 500px;
-  height: 500px;
-  border-radius: 50%;
-  background-color: var(--text-color-2);
-  z-index: 4;
-  @include media(1200) {
-    display: none;
-  }
 }
 </style>

@@ -4,7 +4,7 @@
   <main class="main">
     <slot />
   </main>
-  <layoutsFooter />
+  <LayoutsFooter />
 </template>
 
 <script setup lang="ts"></script>
